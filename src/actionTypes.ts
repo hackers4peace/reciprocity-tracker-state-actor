@@ -1,0 +1,8 @@
+export const ADD_AGENT = 'ADD_AGENT'
+export const SELECT_AGENT = 'SELECT_AGENT'
+export const SELECT_DATE = 'SELECT_DATE'
+export const UNSELECT_DATE = 'UNSELECT_DATE'
+export const ADD_EXCHANGE = 'ADD_EXCHANGE'
+export const CANCEL_EXCHANGE = 'CANCEL_EXCHANGE'
+export const ADD_FLOW = 'ADD_FLOW'
+export const STATE = 'STATE'

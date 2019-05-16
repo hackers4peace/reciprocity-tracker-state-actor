@@ -1,0 +1,15 @@
+{
+  "name": "reciprocity-tracker-agent-actor",
+  "version": "0.1.0",
+  "license": "Unlicense",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "actor-helpers": "git+https://github.com/PolymerLabs/actor-helpers.git#master",
+    "cuid": "^2.1.6",
+    "redux": "^4.0.1",
+    "typescript": "^3.4.5"
+  }
+}
