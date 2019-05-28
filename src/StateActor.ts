@@ -22,6 +22,10 @@ export default class StateActor extends Actor<Action> {
         state: reduxStore.getState()
       })
     })
+    this.ui.send({
+      type: STATE,
+      state: reduxStore.getState()
+    })
   }
 
   async onMessage (msg: Action) {

@@ -1,5 +1,5 @@
 {
-  "name": "reciprocity-tracker-agent-actor",
+  "name": "reciprocity-tracker-state-actor",
   "version": "0.1.0",
   "license": "Unlicense",
   "private": false,
