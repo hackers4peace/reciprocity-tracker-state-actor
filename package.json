@@ -4,12 +4,15 @@
   "license": "Unlicense",
   "private": false,
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "actor-helpers": "git+https://github.com/PolymerLabs/actor-helpers.git#master",
     "cuid": "^2.1.6",
-    "redux": "^4.0.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
     "typescript": "^3.4.5"
   }
 }
